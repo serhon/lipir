@@ -16,7 +16,7 @@ Versions of the script are accumulated in `garette`. While you *could* embed it 
 </head>
 <body>
 	...
-	<script src="https://github.com/serhon/lipir/garette/life_inc_pos_ind_rules-0.2.0.js"> type="text/javascript"></script>
+	<script src="https://github.com/serhon/lipir/garette/life_inc_pos_ind_rules-0.2.1.js"> type="text/javascript"></script>
 	...
 </body>
 ```
@@ -25,7 +25,7 @@ Versions of the script are accumulated in `garette`. While you *could* embed it 
 *it is unsafe to embed scripts from untrusted sources*. Thus the better way is to copy `.js` to your server, read it thoroughly to be sure there are no nasty things, and *only then* embed it like this:
 
 ```html
-<script src="/scripts/life_inc_pos_ind_rules-0.2.0.js"> type="text/javascript"></script>
+<script src="/scripts/life_inc_pos_ind_rules-0.2.1.js"> type="text/javascript"></script>
 ```
 
 If you modify the script, please rename it or keep the link to origin.
